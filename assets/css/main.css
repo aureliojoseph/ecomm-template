@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-50 text-slate-950
+}
+
+a {
+  @apply text-slate-950
+}
+
+@layer components {
+  .btn {
+    @apply bg-slate-700 text-slate-50 hover:text-white transition-all duration-300 ease-linear hover:bg-slate-400 px-3 py-2 rounded-md text-sm
+  }
+}
+
+a {
+  transition: all .3s ease;
+}
+
+a:hover {
+  color: #94a3b8;
+}
