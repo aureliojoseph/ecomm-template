@@ -1,10 +1,14 @@
+<script setup>
+	definePageMeta({
+		layout: "products",
+	});
+</script>
+
 <template>
 	<div>
 		<h3>Products Page</h3>
 	</div>
 </template>
-
-<script setup></script>
 
 <style lang="scss" scoped>
 	h3 {
